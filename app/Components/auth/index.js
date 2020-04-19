@@ -7,6 +7,7 @@ import {
   ActivityIndicator,
 } from 'react-native';
 import AuthLogo from './authLogo';
+import AuthForm from './authForm';
 
 class AuthComponent extends React.Component {
   constructor(props) {
@@ -28,6 +29,7 @@ class AuthComponent extends React.Component {
         <ScrollView style={styles.container}>
           <View>
             <AuthLogo />
+            <AuthForm />
           </View>
         </ScrollView>
       );
@@ -39,7 +41,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#1d428a',
-    padding: 50,
   },
   loading: {
     flex: 1,
