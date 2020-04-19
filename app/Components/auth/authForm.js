@@ -2,7 +2,7 @@ import React from 'react';
 import {View, StyleSheet, Text, Button, Platform} from 'react-native';
 
 import Input from '../../utils/forms/input';
-import validationRules from "../../utils/forms/validationRules";
+import validationRules from '../../utils/forms/validationRules';
 
 class AuthForm extends React.Component {
   constructor(props) {
@@ -56,10 +56,9 @@ class AuthForm extends React.Component {
     let valid = validationRules(value, rules, formCopy);
 
     console.log(valid);
-    
 
     formCopy[name].valid = valid;
-    
+
     this.setState({
       form: formCopy,
     });
