@@ -1,11 +1,5 @@
 import React from 'react';
-import {
-  View,
-  Text,
-  StyleSheet,
-  ScrollView,
-  ActivityIndicator,
-} from 'react-native';
+import {View, StyleSheet, ScrollView, ActivityIndicator} from 'react-native';
 import AuthLogo from './authLogo';
 import AuthForm from './authForm';
 
@@ -15,6 +9,10 @@ class AuthComponent extends React.Component {
     this.state = {
       loading: false,
     };
+  }
+
+  goNext = () => {
+    this.props.navigation.navigate('App');
   }
 
   render() {
@@ -29,7 +27,7 @@ class AuthComponent extends React.Component {
         <ScrollView style={styles.container}>
           <View>
             <AuthLogo />
-            <AuthForm />
+            <AuthForm goNext={this.goNext} />
           </View>
         </ScrollView>
       );

@@ -26,11 +26,16 @@ const AuthStack = () => (
       name="SignIn"
       component={SignIn}
     />
+    <Stack.Screen
+      options={{headerShown: false}}
+      name="App"
+      component={AppStack}
+    />
   </Stack.Navigator>
 );
 
 export default () => (
   <NavigationContainer>
-    {false ? <AppStack /> : <AuthStack />}
+    <AuthStack />
   </NavigationContainer>
 );

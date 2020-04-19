@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, StyleSheet, Text} from 'react-native';
+import {View, StyleSheet, Text, Button, Platform} from 'react-native';
 
 import Input from '../../utils/forms/input';
 
@@ -56,15 +56,15 @@ class AuthForm extends React.Component {
   };
 
   formHasErrors= () => (
-    this.state.hasErrors ?
-        <View style={styles.errorContainer}>
-            <Text style={styles.errorLabel}>Oops, check you info.</Text>
-        </View>
+    this.state.hasErrors ? 
+      <View style={styles.errorContainer}>
+        <Text style={styles.errorLabel}>Oops, check you info.</Text>
+      </View>
     : null
   )
 
   confirmPassword = () => (
-    this.state.type !== 'Login' ? 
+    this.state.type !== 'Login' ?
       <Input
         placeholder="Confirm your password"
         placeholderTextColor="#cecece"
@@ -75,6 +75,18 @@ class AuthForm extends React.Component {
       />
      : null
   )
+
+  submitUser = () => {};
+
+  changeFormType = () => {
+    const type = this.state.type;
+
+    this.setState({
+      type: type === 'Login' ? 'Register' : 'Login',
+      action: type === 'Login' ? 'Register' : 'Login',
+      actionMode: type === 'Login' ? 'I want to Login' : 'I want to register',
+    });
+  };
 
   render() {
     return (
@@ -100,6 +112,24 @@ class AuthForm extends React.Component {
 
         {this.confirmPassword()}
         {this.formHasErrors()}
+
+        <View>
+          <View style={styles.button}>
+            <Button title={this.state.action} onPress={this.submitUser} />
+          </View>
+          <View style={styles.button}>
+            <Button
+              title={this.state.actionMode}
+              onPress={this.changeFormType}
+            />
+          </View>
+          <View style={styles.button}>
+            <Button
+              title={"I'll do it later"}
+              onPress={() => this.props.goNext()}
+            />
+          </View>
+        </View>
       </View>
     );
   }
@@ -116,6 +146,17 @@ const styles = StyleSheet.create({
     color: '#fff',
     textAlign: 'center',
     textAlignVertical: 'center',
+  },
+  button: {
+    ...Platform.select({
+      ios: {
+        marginBottom: 0,
+      },
+      android: {
+        marginBottom: 10,
+        marginTop: 10,
+      },
+    }),
   },
 });
 
