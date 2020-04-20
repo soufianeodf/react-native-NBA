@@ -110,8 +110,10 @@ class AuthForm extends React.Component {
 
     if (isFormValid) {
       if (this.state.type === 'Login') {
+        console.log(formToSubmit);
         this.props.signIn(formToSubmit);
       } else {
+        console.log(formToSubmit);
         this.props.signUp(formToSubmit);
       }
     } else {
