@@ -13,7 +13,7 @@ class AuthComponent extends React.Component {
 
   goNext = () => {
     this.props.navigation.navigate('App');
-  }
+  };
 
   render() {
     if (this.state.loading) {
@@ -39,6 +39,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#1d428a',
+    padding: 50,
   },
   loading: {
     flex: 1,

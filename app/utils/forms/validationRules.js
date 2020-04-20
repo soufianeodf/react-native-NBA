@@ -1,7 +1,7 @@
 const validation = (value, rules, form) => {
   let valid = true;
 
-  for (let rule in rules) {
+  for (var rule in rules) {
     switch (rule) {
       case 'isRequired':
         valid = valid && validateRequired(value);

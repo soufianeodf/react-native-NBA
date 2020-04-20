@@ -85,7 +85,37 @@ class AuthForm extends React.Component {
      : null
   )
 
-  submitUser = () => {};
+  submitUser = () => {
+    let isFormValid = true;
+    let formToSubmit = {};
+    const formCopy = this.state.form;
+
+    for (var key in formCopy) {
+      if (this.state.type === 'Login') {
+        // login
+        if (key !== 'confirmPassword') {
+          isFormValid = isFormValid && formCopy[key].valid;
+          formToSubmit[key] = formCopy[key].value;
+        }
+      } else {
+        // register
+        isFormValid = isFormValid && formCopy[key].valid;
+        formToSubmit[key] = formCopy[key].value;
+      }
+    }
+
+    if (isFormValid) {
+      if (this.state.type === 'Login') {
+        console.log(formToSubmit);
+      } else {
+        console.log(formToSubmit);
+      }
+    } else {
+      this.setState({
+        hasErrors: true,
+      });
+    }
+  };
 
   changeFormType = () => {
     const type = this.state.type;
