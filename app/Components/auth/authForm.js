@@ -8,6 +8,8 @@ import {connect} from 'react-redux';
 import {signUp, signIn} from '../../Store/actions/userActions';
 import {bindActionCreators} from 'redux';
 
+import {setTokens} from '../../utils/misc';
+
 class AuthForm extends React.Component {
   constructor(props) {
     super(props);
@@ -89,6 +91,17 @@ class AuthForm extends React.Component {
      : null
   )
 
+  manageAccess = () => {
+    if (!this.props.User.auth.uid) {
+      this.setState({hasErrors: true});
+    } else {
+      setTokens(this.props.User.auth, () => {
+        this.setState({hasErrors: false});
+        this.props.goNext();
+      });
+    }
+  }
+
   submitUser = () => {
     let isFormValid = true;
     let formToSubmit = {};
@@ -111,10 +124,14 @@ class AuthForm extends React.Component {
     if (isFormValid) {
       if (this.state.type === 'Login') {
         console.log(formToSubmit);
-        this.props.signIn(formToSubmit);
+        this.props.signIn(formToSubmit).then(() => {
+          this.manageAccess();
+        })
       } else {
         console.log(formToSubmit);
-        this.props.signUp(formToSubmit);
+        this.props.signUp(formToSubmit).then(() => {
+          this.manageAccess();
+        })
       }
     } else {
       this.setState({

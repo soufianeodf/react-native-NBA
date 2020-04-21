@@ -3,6 +3,8 @@ import {View, StyleSheet, ScrollView, ActivityIndicator} from 'react-native';
 import AuthLogo from './authLogo';
 import AuthForm from './authForm';
 
+import {getTokens, setTokens} from '../../utils/misc';
+
 class AuthComponent extends React.Component {
   constructor(props) {
     super(props);
@@ -14,6 +16,12 @@ class AuthComponent extends React.Component {
   goNext = () => {
     this.props.navigation.navigate('App');
   };
+
+  componentDidMount() {
+    getTokens(value => {
+      console.log(value);
+    });
+  }
 
   render() {
     if (this.state.loading) {
