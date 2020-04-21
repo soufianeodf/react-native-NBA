@@ -2,10 +2,14 @@ import React from 'react';
 import {View, Image, StyleSheet} from 'react-native';
 import LogoImage from '../../assets/images/nba_login_logo.png';
 
-const LogoComponent = () => {
+const LogoComponent = props => {
   return (
     <View style={styles.container}>
-      <Image source={LogoImage} resizeMode={'center'} style={styles.logo} />
+      <Image
+        source={LogoImage}
+        resizeMode={'center'}
+        style={[styles.logo, props.style]}
+      />
     </View>
   );
 };

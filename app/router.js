@@ -8,16 +8,42 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import SignIn from './Components/auth';
 import News from './Components/news';
 import Games from './Components/games';
+import NewsArticle from './Components/news/article';
+import GamesArticle from './Components/news/article';
+
+import Logo from './Components/auth/authLogo';
+
+const headerConf = {
+  headerTitle: () => <Logo style={{width: 70, height: 35}} />,
+  headerTitleAlign: 'center',
+  headerStyle: {
+    backgroundColor: '#001338',
+  },
+};
+
+const Stack = createStackNavigator();
+const NewsStack = () => (
+  <Stack.Navigator screenOptions={headerConf}>
+    <Stack.Screen name="News" component={News} />
+    <Stack.Screen name="NewsArticle" component={NewsArticle} />
+  </Stack.Navigator>
+);
+
+const GamesStack = () => (
+  <Stack.Navigator screenOptions={headerConf}>
+    <Stack.Screen name="Games" component={Games} />
+    <Stack.Screen name="GamesArticle" component={GamesArticle} />
+  </Stack.Navigator>
+);
 
 const AppTabs = createBottomTabNavigator();
 const AppStack = () => (
   <AppTabs.Navigator>
-    <AppTabs.Screen name="News" component={News} />
-    <AppTabs.Screen name="Games" component={Games} />
+    <AppTabs.Screen name="News" component={NewsStack} />
+    <AppTabs.Screen name="Games" component={GamesStack} />
   </AppTabs.Navigator>
 );
 
-const Stack = createStackNavigator();
 const AuthStack = () => (
   <Stack.Navigator>
     <Stack.Screen
