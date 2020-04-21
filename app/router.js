@@ -23,14 +23,14 @@ const headerConf = {
 
 const Stack = createStackNavigator();
 const NewsStack = () => (
-  <Stack.Navigator screenOptions={headerConf}>
+  <Stack.Navigator screenOptions={{headerShown: false}}>
     <Stack.Screen name="News" component={News} />
     <Stack.Screen name="NewsArticle" component={NewsArticle} />
   </Stack.Navigator>
 );
 
 const GamesStack = () => (
-  <Stack.Navigator screenOptions={headerConf}>
+  <Stack.Navigator screenOptions={{headerShown: false}}>
     <Stack.Screen name="Games" component={Games} />
     <Stack.Screen name="GamesArticle" component={GamesArticle} />
   </Stack.Navigator>
@@ -51,11 +51,7 @@ const AuthStack = () => (
       name="SignIn"
       component={SignIn}
     />
-    <Stack.Screen
-      options={{headerShown: false}}
-      name="App"
-      component={AppStack}
-    />
+    <Stack.Screen options={headerConf} name="App" component={AppStack} />
   </Stack.Navigator>
 );
 
