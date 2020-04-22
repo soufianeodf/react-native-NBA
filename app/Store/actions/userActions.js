@@ -1,5 +1,5 @@
 import axios from 'axios';
-import {SIGNIN, SIGNUP, FIREBASEURL, REFRESH} from '../../utils/misc';
+import {SIGNIN, SIGNUP, REFRESH} from '../../utils/misc';
 import {SIGN_IN, SIGN_UP, AUTO_SIGN_IN} from '../types';
 
 export function signUp(data) {
