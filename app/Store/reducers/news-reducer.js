@@ -5,6 +5,6 @@ export default function(state = {}, action) {
     case GET_NEWS:
       return {...state, articles: action.payload};
     default:
-      break;
+      return state;
   }
 }
