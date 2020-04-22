@@ -1,4 +1,5 @@
 import React from 'react';
+import Ionicons from 'react-native-vector-icons/Ionicons';
 
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
@@ -48,8 +49,24 @@ const AppStack = () => (
         backgroundColor: '#001338',
       },
     }}>
-    <AppTabs.Screen name="News" component={NewsStack} />
-    <AppTabs.Screen name="Games" component={GamesStack} />
+    <AppTabs.Screen
+      name="News"
+      component={NewsStack}
+      options={{
+        tabBarIcon: ({tintColor}) => (
+          <Ionicons name="ios-basketball" size={25} color={'#fff'} />
+        ),
+      }}
+    />
+    <AppTabs.Screen
+      name="Games"
+      component={GamesStack}
+      options={{
+        tabBarIcon: ({tintColor}) => (
+          <Ionicons name="md-tv" size={25} color={'#fff'} />
+        ),
+      }}
+    />
   </AppTabs.Navigator>
 );
 
