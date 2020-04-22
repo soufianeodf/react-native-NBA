@@ -38,7 +38,16 @@ const GamesStack = () => (
 
 const AppTabs = createBottomTabNavigator();
 const AppStack = () => (
-  <AppTabs.Navigator>
+  <AppTabs.Navigator
+    tabBarOptions={{
+      showLabel: false,
+      activeTintColor: '#fff',
+      activeBackgroundColor: '#00194b',
+      inactiveBackgroundColor: '#001338',
+      style: {
+        backgroundColor: '#001338',
+      },
+    }}>
     <AppTabs.Screen name="News" component={NewsStack} />
     <AppTabs.Screen name="Games" component={GamesStack} />
   </AppTabs.Navigator>
