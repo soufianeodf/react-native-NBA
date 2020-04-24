@@ -30,3 +30,14 @@ export const setTokens = (values, callback) => {
     callback();
   });
 };
+
+export const convertFirebase = data => {
+  const newData = [];
+  for (var key in data) {
+    newData.push({
+      ...data[key],
+      id: key,
+    });
+  }
+  return newData;
+};

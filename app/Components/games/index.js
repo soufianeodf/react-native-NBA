@@ -1,9 +1,23 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {
+  View,
+  Text,
+  StyleSheet,
+  Image,
+  ScrollView,
+  TouchableOpacity,
+} from 'react-native';
+import {connect} from 'react-redux';
+import {getGames} from '../../Store/actions/newsActions';
+import Moment from 'moment';
 
 class GamesComponenet extends React.Component {
   constructor(props) {
     super(props);
+  }
+
+  componentDidMount() {
+    this.props.dispatch(getGames());
   }
 
   render() {
@@ -21,4 +35,11 @@ const styles = StyleSheet.create({
   },
 });
 
-export default GamesComponenet;
+function mapStateToProps(state) {
+  console.log(state);
+  return {
+    Games: state.Games,
+  };
+}
+
+export default connect(mapStateToProps)(GamesComponenet);

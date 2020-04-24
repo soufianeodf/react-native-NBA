@@ -1,7 +1,7 @@
 import {GET_NEWS} from '../types';
 
 import axios from 'axios';
-import {FIREBASEURL} from '../../utils/misc';
+import {FIREBASEURL, convertFirebase} from '../../utils/misc';
 
 export function getNews() {
   const request = axios({
@@ -9,14 +9,7 @@ export function getNews() {
     url: `${FIREBASEURL}/news.json`,
   })
     .then(response => {
-      const articles = [];
-      for (var key in response.data) {
-        articles.push({
-          ...response.data[key],
-          id: key,
-        });
-      }
-      return articles;
+      return convertFirebase(response.data);
     })
     .catch(e => {
       return false;
