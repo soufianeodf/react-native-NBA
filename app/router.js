@@ -20,6 +20,7 @@ const headerConf = {
   headerStyle: {
     backgroundColor: '#001338',
   },
+  headerLeft: null,
 };
 
 const Stack = createStackNavigator();
