@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 import {connect} from 'react-redux';
 import {getNews} from '../../Store/actions/newsActions';
+import Moment from 'moment';
 
 class NewsComponent extends React.Component {
   constructor(props) {
@@ -22,7 +23,13 @@ class NewsComponent extends React.Component {
   renderArticle = news => (
     news.articles ?
     news.articles.map((item, i) => (
-          <TouchableOpacity key={i}>
+          <TouchableOpacity 
+            onPress={() =>
+              this.props.navigation.navigate('NewsArticle', {
+            ...item
+          })}
+          key={i}
+          >
             <View style={styles.cardContainer}>
               <View>
                 <Image
@@ -30,6 +37,13 @@ class NewsComponent extends React.Component {
                   source={{uri: `${item.image}`}}
                   resizeMode="cover"
                 />
+              </View>
+              <View style={styles.contentCard}>
+                <Text style={styles.titleCard}> {item.title} </Text>
+                <View style={styles.bottonCard}>
+                  <Text style={styles.bottonCardTeam}> {item.team} - </Text>
+                  <Text style={styles.bottonCardText}>Posted at {Moment(item.date).format('d MMMM  ')} </Text>
+                </View>
               </View>
             </View>
           </TouchableOpacity>
@@ -56,6 +70,30 @@ const styles = StyleSheet.create({
     shadowRadius: 2,
     elevation: 1,
     borderRadius: 2,
+  },
+  contentCard: {
+    borderWidth: 1,
+    borderColor: '#ddd',
+  },
+  titleCard: {
+    color: '#232323',
+    fontSize: 16,
+    padding: 10,
+  },
+  bottonCard: {
+    flex: 1,
+    flexDirection: "row",
+    borderTopWidth: 1,
+    borderTopColor: '#e6e6e6',
+    padding: 10,
+  },
+  bottonCardTeam: {
+    color: '#828282',
+    fontSize: 12,
+  },
+  bottonCardText: {
+    color: '#828282',
+    fontSize: 12,
   },
 });
 
