@@ -41,3 +41,10 @@ export const convertFirebase = data => {
   }
   return newData;
 };
+
+export const findTeamData = (itemId, teams) => {
+  const value = teams.find(team => {
+    return team.id === itemId;
+  });
+  return value;
+};

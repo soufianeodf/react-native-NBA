@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import {connect} from 'react-redux';
-import {getGames} from '../../Store/actions/newsActions';
+import {getGames} from '../../Store/actions/gamesActions';
 import Moment from 'moment';
 
 class GamesComponenet extends React.Component {
