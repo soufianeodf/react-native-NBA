@@ -76,6 +76,7 @@ const styles = StyleSheet.create({
     borderColor: '#ddd',
   },
   titleCard: {
+    fontFamily: 'Roboto-Bold',
     color: '#232323',
     fontSize: 16,
     padding: 10,
@@ -88,10 +89,12 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   bottonCardTeam: {
+    fontFamily: 'Roboto-Bold',
     color: '#828282',
     fontSize: 12,
   },
   bottonCardText: {
+    fontFamily: 'Roboto-Light',
     color: '#828282',
     fontSize: 12,
   },
