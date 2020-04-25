@@ -10,7 +10,7 @@ import SignIn from './Components/auth';
 import News from './Components/news';
 import Games from './Components/games';
 import NewsArticle from './Components/news/article';
-import GamesArticle from './Components/news/article';
+import GamesArticle from './Components/games/article';
 
 import Logo from './Components/auth/authLogo';
 
