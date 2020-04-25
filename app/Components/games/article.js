@@ -3,6 +3,11 @@ import {View, Text, StyleSheet, ActivityIndicator, ScrollView, Button} from 'rea
 import Video from 'react-native-video';
 import Icon from 'react-native-vector-icons/dist/Ionicons';
 
+import {connect} from 'react-redux';
+import {autoSignIn} from '../../Store/actions/userActions';
+
+import {getTokens, setTokens} from '../../utils/misc';
+
 class ArticleComponent extends React.Component {
   constructor(props) {
     super(props);
@@ -10,6 +15,32 @@ class ArticleComponent extends React.Component {
       loading: false,
       isAuth: false,
     };
+  }
+
+  manageState(loading, isAuth) {
+    this.setState({
+      loading,
+      isAuth,
+    });
+  }
+
+  componentDidMount() {
+    const User = this.props.User;
+
+    getTokens((value) => {
+      if (value[0][1] === null) {
+        this.manageState(false, false);
+      } else {
+        this.props.dispatch(autoSignIn(value[1][1])).then(() => {
+          !User.auth.token ?
+          this.manageState(false, false)
+          :
+          setTokens(User.auth, () => {
+            this.manageState(false, true);
+          });
+        })
+      }
+    })
   }
 
   render() {
@@ -24,12 +55,20 @@ class ArticleComponent extends React.Component {
       return(
         <ScrollView style={{backgroundColor: '#F0F0F0'}}>
           { this.state.isAuth ? 
-            <Text>Video</Text>
+            <Video
+              controls={true}
+              paused={true}
+              muted={false}
+              source={{uri: params.play}}
+              style={{width: '100%', height: 250}}
+            />
             :
             <View style={styles.notAuth}>
-              <Icon name='md-sad' size={80} color='#d5d5d5' />
-              <Text style={styles.notAuthText}>We are sorry, you need to be registered/logged to see this game</Text>
-              <Button 
+              <Icon name="md-sad" size={80} color="#d5d5d5" />
+              <Text style={styles.notAuthText}>
+                We are sorry, you need to be registered/logged to see this game
+              </Text>
+              <Button
                 title="Login / Register"
                 onPress={() => this.props.navigation.navigate('SignIn')}
               />
@@ -59,4 +98,10 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ArticleComponent;
+function mapStateToProps(state) {
+  return {
+    User: state.User,
+  };
+}
+
+export default connect(mapStateToProps)(ArticleComponent);
