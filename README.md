@@ -1,4 +1,6 @@
-<div style="text-align:center"><img src="./assets/images/logo.jpg" /></div>
+<p align="center">
+  <img src="./assets/images/logo.jpg" />
+</p>
 
 # Swish 
 An iOS and Android NBA app created with React Native. If you would like to request a feature, find a bug, have a question, or would like to leave feedback, open an issue! ⭐️ this repo to show support!
@@ -39,7 +41,7 @@ npm install
 ```
 * Run
 ```
-npx react-native run-android // for android
+react-native run-android // for android
 
 react-native run-ios // for ios
 ```
