@@ -41,7 +41,7 @@ npm install
 ```
 * Run
 ```
-react-native run-android // for android
+react-native run-android
 
-react-native run-ios // for ios
+react-native run-ios
 ```
