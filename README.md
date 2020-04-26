@@ -29,17 +29,17 @@ An iOS and Android NBA app created with React Native. If you would like to reque
 [React-Native-render-html](https://github.com/archriss/react-native-render-html)
 
 # Getting Started
-* Fork (optional) and clone repo
+1. Fork (optional) and clone repo
 ```
  git clone https://github.com/soufianeodf/react-native-NBA.git 
 
  cd react-native-NBA
 ```
-* Install dependencies
+2. Install dependencies
 ```
 npm install
 ```
-* Run
+3. Run
 ```
 react-native run-android
 
