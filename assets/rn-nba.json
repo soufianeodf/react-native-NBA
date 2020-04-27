@@ -1,0 +1,301 @@
+{
+  "games" : {
+    "-L_JF2LaIZHxUSwuMZKF" : {
+      "away" : "-L_J9f0aNbgK75FvfIzE",
+      "date" : "2019-01-02T00:00:00",
+      "local" : "-L_J9exs88WcMW7_s0Oo",
+      "play" : "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "time" : "7:00 pm ET"
+    },
+    "-L_JF2TRp5Dx7mceg81c" : {
+      "away" : "-L_J9fFfjWSLpnllnE6o",
+      "date" : "2019-01-02T00:00:00",
+      "local" : "-L_J9f8vZnmztVkC5aEa",
+      "play" : "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "time" : "7:30 pm ET"
+    },
+    "-L_JF2TRp5Dx7mceg81d" : {
+      "away" : "-L_J9fOGwaCVg-swrbxt",
+      "date" : "2019-01-02T00:00:00",
+      "local" : "-L_J9fKNJ8gJeI6K8EDJ",
+      "play" : "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "time" : "8:30 pm ET"
+    },
+    "-L_Jm2VpRGck2_pEVdp1" : {
+      "away" : "-L_J9fC1RVVe609VsnSK",
+      "date" : "2019-01-02T00:00:00",
+      "local" : "-L_J9f5AuDFNKjFI3EUN",
+      "play" : "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "time" : "8:30 pm ET"
+    },
+    "-L_Jm2cVmaR1KspmROCr" : {
+      "away" : "-L_J9fOGwaCVg-swrbxu",
+      "date" : "2019-01-02T00:00:00",
+      "local" : "-L_J9fJcR1k8BTTkT0mr",
+      "play" : "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "time" : "9:00 pm ET"
+    },
+    "-L_Jm2d2NMgKyDTc7eNB" : {
+      "away" : "-L_J9fS04QBeqvPtJZyE",
+      "date" : "2019-01-02T00:00:00",
+      "local" : "-L_J9fRAxp5tK3EKKeyv",
+      "play" : "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "time" : "9:30 pm ET"
+    }
+  },
+  "news" : {
+    "-L_Gr3Z994wcTjS_6e8q" : {
+      "content" : "<p><b>Lorem</b> ipsum dolor sit amet, consectetur adipiscing elit. Cras nec blandit nisi. Mauris sagittis semper eros ac euismod. Phasellus eu vulputate velit. Curabitur ac consequat libero. Fusce fermentum ante id nunc dictum, at iaculis velit volutpat. Sed lorem massa, euismod sed consequat dignissim, ultrices a dolor. Suspendisse maximus euismod lorem, vitae viverra velit pellentesque ut. Quisque diam ipsum, vestibulum ac cursus sed, sagittis id dui. Aenean libero dolor, porttitor pulvinar lacus at, vulputate euismod odio. Nullam libero sapien, porta viverra accumsan in, molestie in dolor. Nunc tristique sem feugiat neque efficitur, sit amet fermentum nulla sollicitudin. Morbi consectetur auctor lacus, id ultrices lorem vehicula eget. Nam mattis nec leo sit amet pretium. Donec hendrerit iaculis sapien a sagittis. Vestibulum eget commodo magna, et rhoncus ligula. Etiam feugiat mattis nibh, quis tincidunt turpis hendrerit volutpat.</p>\n\n            <p>Praesent id egestas purus, a rhoncus magna. In ac nisi dapibus, ultrices metus non, ornare enim. Suspendisse potenti. Nulla dignissim hendrerit malesuada. Fusce vel consequat erat. Nullam vel ligula ligula. Nullam dictum rhoncus purus, at congue eros. Duis in fringilla sem. Ut mattis leo eu blandit semper.</p>\n            \n            <p>Mauris euismod pretium quam nec blandit. Nam ut interdum mauris. Morbi finibus, purus nec rutrum rhoncus, sem felis placerat quam, nec varius mi orci sed nibh. Pellentesque gravida iaculis dui, sed pellentesque diam. Nullam blandit in leo ut condimentum. Sed consectetur, ligula vel eleifend tempor, nibh elit porta augue, a placerat nunc tortor convallis est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse nibh tortor, commodo vitae fringilla non, porta nec eros. Nullam viverra facilisis erat, eu consequat dolor mattis id. Suspendisse sit amet est sed nunc viverra malesuada id sit amet ligula. Nulla a eleifend risus. Vivamus pharetra tristique nisl eget posuere. In in nulla metus. Mauris nisl dolor, lobortis a viverra in, ullamcorper nec quam. Morbi nisl elit, congue a mauris non, posuere vehicula odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>\n            \n            <p>Donec eleifend dictum nunc eget rhoncus. Aenean ultrices hendrerit malesuada. Ut eget est leo. Aenean vehicula mauris id placerat convallis. Nunc imperdiet lorem a ullamcorper rutrum. In hac habitasse platea dictumst. Praesent condimentum ante sed ipsum tempor, lacinia egestas orci feugiat.</p>\n            \n            <p>Duis ut dictum libero. Quisque et pretium elit, ut ornare dolor. Curabitur accumsan justo sem, eget iaculis nibh consequat ac. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam lobortis sed libero ac posuere. Nullam id nulla id dui convallis cursus quis vel elit. Donec facilisis semper felis sit amet porta. In hac habitasse platea dictumst.</p>",
+      "date" : "2019-01-02T00:00:00",
+      "dateId" : 1551856584107,
+      "image" : "https://www.parlons-basket.com/wp-content/uploads/2020/01/NBA-Knicks.jpg",
+      "team" : "Knicks",
+      "title" : "Carmelo anthony is going to play for the Heat."
+    },
+    "-L_Gr7Y-PNmwZei_EPSj" : {
+      "content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec blandit nisi. Mauris sagittis semper eros ac euismod. Phasellus eu vulputate velit. Curabitur ac consequat libero. Fusce fermentum ante id nunc dictum, at iaculis velit volutpat. Sed lorem massa, euismod sed consequat dignissim, ultrices a dolor. Suspendisse maximus euismod lorem, vitae viverra velit pellentesque ut. Quisque diam ipsum, vestibulum ac cursus sed, sagittis id dui. Aenean libero dolor, porttitor pulvinar lacus at, vulputate euismod odio. Nullam libero sapien, porta viverra accumsan in, molestie in dolor. Nunc tristique sem feugiat neque efficitur, sit amet fermentum nulla sollicitudin. Morbi consectetur auctor lacus, id ultrices lorem vehicula eget. Nam mattis nec leo sit amet pretium. Donec hendrerit iaculis sapien a sagittis. Vestibulum eget commodo magna, et rhoncus ligula. Etiam feugiat mattis nibh, quis tincidunt turpis hendrerit volutpat.</p>\n\n            <p>Praesent id egestas purus, a rhoncus magna. In ac nisi dapibus, ultrices metus non, ornare enim. Suspendisse potenti. Nulla dignissim hendrerit malesuada. Fusce vel consequat erat. Nullam vel ligula ligula. Nullam dictum rhoncus purus, at congue eros. Duis in fringilla sem. Ut mattis leo eu blandit semper.</p>\n            \n            <p>Mauris euismod pretium quam nec blandit. Nam ut interdum mauris. Morbi finibus, purus nec rutrum rhoncus, sem felis placerat quam, nec varius mi orci sed nibh. Pellentesque gravida iaculis dui, sed pellentesque diam. Nullam blandit in leo ut condimentum. Sed consectetur, ligula vel eleifend tempor, nibh elit porta augue, a placerat nunc tortor convallis est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse nibh tortor, commodo vitae fringilla non, porta nec eros. Nullam viverra facilisis erat, eu consequat dolor mattis id. Suspendisse sit amet est sed nunc viverra malesuada id sit amet ligula. Nulla a eleifend risus. Vivamus pharetra tristique nisl eget posuere. In in nulla metus. Mauris nisl dolor, lobortis a viverra in, ullamcorper nec quam. Morbi nisl elit, congue a mauris non, posuere vehicula odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>\n            \n            <p>Donec eleifend dictum nunc eget rhoncus. Aenean ultrices hendrerit malesuada. Ut eget est leo. Aenean vehicula mauris id placerat convallis. Nunc imperdiet lorem a ullamcorper rutrum. In hac habitasse platea dictumst. Praesent condimentum ante sed ipsum tempor, lacinia egestas orci feugiat.</p>\n            \n            <p>Duis ut dictum libero. Quisque et pretium elit, ut ornare dolor. Curabitur accumsan justo sem, eget iaculis nibh consequat ac. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam lobortis sed libero ac posuere. Nullam id nulla id dui convallis cursus quis vel elit. Donec facilisis semper felis sit amet porta. In hac habitasse platea dictumst.</p>",
+      "date" : "2019-01-02T00:00:00",
+      "dateId" : 1551856600562,
+      "image" : "https://www.nba.com/images/cms/2020-03/20200310_harden_recap.jpg?cw=1920&w=1919&x=0&ch=1080&h=1080&y=0",
+      "team" : "Rockets",
+      "title" : "James harden breakes another record."
+    },
+    "-L_GrCZ8KfxApsQMakk8" : {
+      "content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec blandit nisi. Mauris sagittis semper eros ac euismod. Phasellus eu vulputate velit. Curabitur ac consequat libero. Fusce fermentum ante id nunc dictum, at iaculis velit volutpat. Sed lorem massa, euismod sed consequat dignissim, ultrices a dolor. Suspendisse maximus euismod lorem, vitae viverra velit pellentesque ut. Quisque diam ipsum, vestibulum ac cursus sed, sagittis id dui. Aenean libero dolor, porttitor pulvinar lacus at, vulputate euismod odio. Nullam libero sapien, porta viverra accumsan in, molestie in dolor. Nunc tristique sem feugiat neque efficitur, sit amet fermentum nulla sollicitudin. Morbi consectetur auctor lacus, id ultrices lorem vehicula eget. Nam mattis nec leo sit amet pretium. Donec hendrerit iaculis sapien a sagittis. Vestibulum eget commodo magna, et rhoncus ligula. Etiam feugiat mattis nibh, quis tincidunt turpis hendrerit volutpat.</p>\n\n            <p>Praesent id egestas purus, a rhoncus magna. In ac nisi dapibus, ultrices metus non, ornare enim. Suspendisse potenti. Nulla dignissim hendrerit malesuada. Fusce vel consequat erat. Nullam vel ligula ligula. Nullam dictum rhoncus purus, at congue eros. Duis in fringilla sem. Ut mattis leo eu blandit semper.</p>\n            \n            <p>Mauris euismod pretium quam nec blandit. Nam ut interdum mauris. Morbi finibus, purus nec rutrum rhoncus, sem felis placerat quam, nec varius mi orci sed nibh. Pellentesque gravida iaculis dui, sed pellentesque diam. Nullam blandit in leo ut condimentum. Sed consectetur, ligula vel eleifend tempor, nibh elit porta augue, a placerat nunc tortor convallis est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse nibh tortor, commodo vitae fringilla non, porta nec eros. Nullam viverra facilisis erat, eu consequat dolor mattis id. Suspendisse sit amet est sed nunc viverra malesuada id sit amet ligula. Nulla a eleifend risus. Vivamus pharetra tristique nisl eget posuere. In in nulla metus. Mauris nisl dolor, lobortis a viverra in, ullamcorper nec quam. Morbi nisl elit, congue a mauris non, posuere vehicula odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>\n            \n            <p>Donec eleifend dictum nunc eget rhoncus. Aenean ultrices hendrerit malesuada. Ut eget est leo. Aenean vehicula mauris id placerat convallis. Nunc imperdiet lorem a ullamcorper rutrum. In hac habitasse platea dictumst. Praesent condimentum ante sed ipsum tempor, lacinia egestas orci feugiat.</p>\n            \n            <p>Duis ut dictum libero. Quisque et pretium elit, ut ornare dolor. Curabitur accumsan justo sem, eget iaculis nibh consequat ac. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam lobortis sed libero ac posuere. Nullam id nulla id dui convallis cursus quis vel elit. Donec facilisis semper felis sit amet porta. In hac habitasse platea dictumst.</p>",
+      "date" : "2019-01-02T00:00:00",
+      "dateId" : 1551856621128,
+      "image" : "https://img.over-blog-kiwi.com/1/42/65/05/20190614/ob_15d81a_image.jpg",
+      "team" : "Celtics",
+      "title" : "Kyrie Irving closer and closer to the knicks.Rumors ?"
+    },
+    "-L_GssB-uOHrs95G-Tlv" : {
+      "content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec blandit nisi. Mauris sagittis semper eros ac euismod. Phasellus eu vulputate velit. Curabitur ac consequat libero. Fusce fermentum ante id nunc dictum, at iaculis velit volutpat. Sed lorem massa, euismod sed consequat dignissim, ultrices a dolor. Suspendisse maximus euismod lorem, vitae viverra velit pellentesque ut. Quisque diam ipsum, vestibulum ac cursus sed, sagittis id dui. Aenean libero dolor, porttitor pulvinar lacus at, vulputate euismod odio. Nullam libero sapien, porta viverra accumsan in, molestie in dolor. Nunc tristique sem feugiat neque efficitur, sit amet fermentum nulla sollicitudin. Morbi consectetur auctor lacus, id ultrices lorem vehicula eget. Nam mattis nec leo sit amet pretium. Donec hendrerit iaculis sapien a sagittis. Vestibulum eget commodo magna, et rhoncus ligula. Etiam feugiat mattis nibh, quis tincidunt turpis hendrerit volutpat.</p>\n\n            <p>Praesent id egestas purus, a rhoncus magna. In ac nisi dapibus, ultrices metus non, ornare enim. Suspendisse potenti. Nulla dignissim hendrerit malesuada. Fusce vel consequat erat. Nullam vel ligula ligula. Nullam dictum rhoncus purus, at congue eros. Duis in fringilla sem. Ut mattis leo eu blandit semper.</p>\n            \n            <p>Mauris euismod pretium quam nec blandit. Nam ut interdum mauris. Morbi finibus, purus nec rutrum rhoncus, sem felis placerat quam, nec varius mi orci sed nibh. Pellentesque gravida iaculis dui, sed pellentesque diam. Nullam blandit in leo ut condimentum. Sed consectetur, ligula vel eleifend tempor, nibh elit porta augue, a placerat nunc tortor convallis est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse nibh tortor, commodo vitae fringilla non, porta nec eros. Nullam viverra facilisis erat, eu consequat dolor mattis id. Suspendisse sit amet est sed nunc viverra malesuada id sit amet ligula. Nulla a eleifend risus. Vivamus pharetra tristique nisl eget posuere. In in nulla metus. Mauris nisl dolor, lobortis a viverra in, ullamcorper nec quam. Morbi nisl elit, congue a mauris non, posuere vehicula odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>\n            \n            <p>Donec eleifend dictum nunc eget rhoncus. Aenean ultrices hendrerit malesuada. Ut eget est leo. Aenean vehicula mauris id placerat convallis. Nunc imperdiet lorem a ullamcorper rutrum. In hac habitasse platea dictumst. Praesent condimentum ante sed ipsum tempor, lacinia egestas orci feugiat.</p>\n            \n            <p>Duis ut dictum libero. Quisque et pretium elit, ut ornare dolor. Curabitur accumsan justo sem, eget iaculis nibh consequat ac. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam lobortis sed libero ac posuere. Nullam id nulla id dui convallis cursus quis vel elit. Donec facilisis semper felis sit amet porta. In hac habitasse platea dictumst.</p>",
+      "date" : "2019-01-02T00:00:00",
+      "dateId" : 1551857057863,
+      "image" : "https://s.yimg.com/uu/api/res/1.2/04mnCUbQ3LrE_5zM6XMvWw--~B/cT05NTtmaT1zdHJpbTtweW9mZj0wO3c9OTAwO2g9NTA1O2FwcGlkPXl0YWNoeW9u/https://s.yimg.com/lo/api/res/1.2/CZZb8zU_7UA5nqsOIV81hQ--~C/Y2g9OTI0LjIzMDc2OTIzMDc2OTM7Y3I9MTtjdz0xNjQzLjQ3ODI2MDg2OTU2NTI7ZHg9MjU1LjY1MjE3MzkxMzA0MzQ3O2R5PTIwLjg2NDQ2ODg2NDQ2ODg2NTtmaT11bGNyb3A7O2FwcGlkPXByb2Rlc2sy/https://s.yimg.com/os/creatr-uploaded-images/2020-04/8962d440-8371-11ea-beca-6dc1702275ac.cf.jpg",
+      "team" : "Warriors",
+      "title" : "KD scores 40 in golden state blowout."
+    },
+    "-L_Gt0dAP13NCbLsZ9S_" : {
+      "content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec blandit nisi. Mauris sagittis semper eros ac euismod. Phasellus eu vulputate velit. Curabitur ac consequat libero. Fusce fermentum ante id nunc dictum, at iaculis velit volutpat. Sed lorem massa, euismod sed consequat dignissim, ultrices a dolor. Suspendisse maximus euismod lorem, vitae viverra velit pellentesque ut. Quisque diam ipsum, vestibulum ac cursus sed, sagittis id dui. Aenean libero dolor, porttitor pulvinar lacus at, vulputate euismod odio. Nullam libero sapien, porta viverra accumsan in, molestie in dolor. Nunc tristique sem feugiat neque efficitur, sit amet fermentum nulla sollicitudin. Morbi consectetur auctor lacus, id ultrices lorem vehicula eget. Nam mattis nec leo sit amet pretium. Donec hendrerit iaculis sapien a sagittis. Vestibulum eget commodo magna, et rhoncus ligula. Etiam feugiat mattis nibh, quis tincidunt turpis hendrerit volutpat.</p>\n\n            <p>Praesent id egestas purus, a rhoncus magna. In ac nisi dapibus, ultrices metus non, ornare enim. Suspendisse potenti. Nulla dignissim hendrerit malesuada. Fusce vel consequat erat. Nullam vel ligula ligula. Nullam dictum rhoncus purus, at congue eros. Duis in fringilla sem. Ut mattis leo eu blandit semper.</p>\n            \n            <p>Mauris euismod pretium quam nec blandit. Nam ut interdum mauris. Morbi finibus, purus nec rutrum rhoncus, sem felis placerat quam, nec varius mi orci sed nibh. Pellentesque gravida iaculis dui, sed pellentesque diam. Nullam blandit in leo ut condimentum. Sed consectetur, ligula vel eleifend tempor, nibh elit porta augue, a placerat nunc tortor convallis est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse nibh tortor, commodo vitae fringilla non, porta nec eros. Nullam viverra facilisis erat, eu consequat dolor mattis id. Suspendisse sit amet est sed nunc viverra malesuada id sit amet ligula. Nulla a eleifend risus. Vivamus pharetra tristique nisl eget posuere. In in nulla metus. Mauris nisl dolor, lobortis a viverra in, ullamcorper nec quam. Morbi nisl elit, congue a mauris non, posuere vehicula odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>\n            \n            <p>Donec eleifend dictum nunc eget rhoncus. Aenean ultrices hendrerit malesuada. Ut eget est leo. Aenean vehicula mauris id placerat convallis. Nunc imperdiet lorem a ullamcorper rutrum. In hac habitasse platea dictumst. Praesent condimentum ante sed ipsum tempor, lacinia egestas orci feugiat.</p>\n            \n            <p>Duis ut dictum libero. Quisque et pretium elit, ut ornare dolor. Curabitur accumsan justo sem, eget iaculis nibh consequat ac. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam lobortis sed libero ac posuere. Nullam id nulla id dui convallis cursus quis vel elit. Donec facilisis semper felis sit amet porta. In hac habitasse platea dictumst.</p>",
+      "date" : "2019-01-02T00:00:00",
+      "dateId" : 1551857096588,
+      "image" : "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2020/03/931/524/Giannis-Antetokounmpo6.jpg?ve=1&tl=1",
+      "team" : "Mavericks",
+      "title" : "Is Doncic the future of the NBA.Look at this numbers."
+    },
+    "-L_GtVKw8yOX5SWjepDA" : {
+      "content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec blandit nisi. Mauris sagittis semper eros ac euismod. Phasellus eu vulputate velit. Curabitur ac consequat libero. Fusce fermentum ante id nunc dictum, at iaculis velit volutpat. Sed lorem massa, euismod sed consequat dignissim, ultrices a dolor. Suspendisse maximus euismod lorem, vitae viverra velit pellentesque ut. Quisque diam ipsum, vestibulum ac cursus sed, sagittis id dui. Aenean libero dolor, porttitor pulvinar lacus at, vulputate euismod odio. Nullam libero sapien, porta viverra accumsan in, molestie in dolor. Nunc tristique sem feugiat neque efficitur, sit amet fermentum nulla sollicitudin. Morbi consectetur auctor lacus, id ultrices lorem vehicula eget. Nam mattis nec leo sit amet pretium. Donec hendrerit iaculis sapien a sagittis. Vestibulum eget commodo magna, et rhoncus ligula. Etiam feugiat mattis nibh, quis tincidunt turpis hendrerit volutpat.</p>\n\n            <p>Praesent id egestas purus, a rhoncus magna. In ac nisi dapibus, ultrices metus non, ornare enim. Suspendisse potenti. Nulla dignissim hendrerit malesuada. Fusce vel consequat erat. Nullam vel ligula ligula. Nullam dictum rhoncus purus, at congue eros. Duis in fringilla sem. Ut mattis leo eu blandit semper.</p>\n            \n            <p>Mauris euismod pretium quam nec blandit. Nam ut interdum mauris. Morbi finibus, purus nec rutrum rhoncus, sem felis placerat quam, nec varius mi orci sed nibh. Pellentesque gravida iaculis dui, sed pellentesque diam. Nullam blandit in leo ut condimentum. Sed consectetur, ligula vel eleifend tempor, nibh elit porta augue, a placerat nunc tortor convallis est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse nibh tortor, commodo vitae fringilla non, porta nec eros. Nullam viverra facilisis erat, eu consequat dolor mattis id. Suspendisse sit amet est sed nunc viverra malesuada id sit amet ligula. Nulla a eleifend risus. Vivamus pharetra tristique nisl eget posuere. In in nulla metus. Mauris nisl dolor, lobortis a viverra in, ullamcorper nec quam. Morbi nisl elit, congue a mauris non, posuere vehicula odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>\n            \n            <p>Donec eleifend dictum nunc eget rhoncus. Aenean ultrices hendrerit malesuada. Ut eget est leo. Aenean vehicula mauris id placerat convallis. Nunc imperdiet lorem a ullamcorper rutrum. In hac habitasse platea dictumst. Praesent condimentum ante sed ipsum tempor, lacinia egestas orci feugiat.</p>\n            \n            <p>Duis ut dictum libero. Quisque et pretium elit, ut ornare dolor. Curabitur accumsan justo sem, eget iaculis nibh consequat ac. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam lobortis sed libero ac posuere. Nullam id nulla id dui convallis cursus quis vel elit. Donec facilisis semper felis sit amet porta. In hac habitasse platea dictumst.</p>",
+      "date" : "2019-01-02T00:00:00",
+      "dateId" : 1551857222349,
+      "image" : "https://www.nbcsports.com/bayarea/sites/csnbayarea/files/styles/article_hero_image/public/2019/06/30/nbaliveblogusatsi.jpg?itok=nujL8XhA",
+      "team" : "Pelicans",
+      "title" : "Anthony davis will go to lakers or to new york"
+    }
+  },
+  "teams" : {
+    "-L_J9exs88WcMW7_s0Oo" : {
+      "city" : "New York",
+      "logo" : "https://content.sportslogos.net/logos/6/220/thumbs/22091682016.gif",
+      "loss" : 13,
+      "name" : "Knicks",
+      "wins" : 51
+    },
+    "-L_J9f0aNbgK75FvfIzE" : {
+      "city" : "Cleveland",
+      "logo" : "https://content.sportslogos.net/logos/6/213/thumbs/slhg02hbef3j1ov4lsnwyol5o.gif",
+      "loss" : 18,
+      "name" : "Cavaliers",
+      "wins" : 24
+    },
+    "-L_J9f4LWw8vQv049anl" : {
+      "city" : "Boston",
+      "logo" : "https://content.sportslogos.net/logos/6/3786/thumbs/hsuff5m3dgiv20kovde422r1f.gif",
+      "loss" : 35,
+      "name" : "Celtics",
+      "wins" : 18
+    },
+    "-L_J9f4_Mh0j8lNUH9Bt" : {
+      "city" : "Philadelphia",
+      "logo" : "https://content.sportslogos.net/logos/6/5120/thumbs/512019262015.gif",
+      "loss" : 41,
+      "name" : "76ers",
+      "wins" : 23
+    },
+    "-L_J9f4rCM1ljEyxxQDs" : {
+      "city" : "Milwakee",
+      "logo" : "https://content.sportslogos.net/logos/6/221/thumbs/hj3gmh82w9hffmeh3fjm5h874.gif",
+      "loss" : 48,
+      "name" : "Bucks",
+      "wins" : 16
+    },
+    "-L_J9f5AuDFNKjFI3EUN" : {
+      "city" : "Chicago",
+      "logo" : "https://content.sportslogos.net/logos/6/222/thumbs/22269212018.gif",
+      "loss" : 16,
+      "name" : "Bulls",
+      "wins" : 47
+    },
+    "-L_J9f87VZGGdbaY0x--" : {
+      "city" : "Los Angeles",
+      "logo" : "https://content.sportslogos.net/logos/6/228/thumbs/22834632018.gif",
+      "loss" : 23,
+      "name" : "Clippers",
+      "wins" : 40
+    },
+    "-L_J9f8IL4QI5ZljnoVD" : {
+      "city" : "Vancouver",
+      "logo" : "https://content.sportslogos.net/logos/6/224/thumbs/22448122018.gif",
+      "loss" : 12,
+      "name" : "Grizzlies",
+      "wins" : 50
+    },
+    "-L_J9f8vZnmztVkC5aE_" : {
+      "city" : "Miami",
+      "logo" : "https://content.sportslogos.net/logos/6/232/thumbs/23296692018.gif",
+      "loss" : 12,
+      "name" : "Heat",
+      "wins" : 53
+    },
+    "-L_J9f8vZnmztVkC5aEa" : {
+      "city" : "Atlanta",
+      "logo" : "https://content.sportslogos.net/logos/6/4962/thumbs/496226812014.gif",
+      "loss" : 26,
+      "name" : "Hawks",
+      "wins" : 23
+    },
+    "-L_J9fBrdWnevIZ2OlhI" : {
+      "city" : "Charlotte",
+      "logo" : "https://content.sportslogos.net/logos/6/216/thumbs/2nn48xofg0hms8k326cqdmuis.gif",
+      "loss" : 43,
+      "name" : "Hornets",
+      "wins" : 12
+    },
+    "-L_J9fC1RVVe609VsnSK" : {
+      "city" : "Charlotte",
+      "logo" : "https://content.sportslogos.net/logos/6/231/thumbs/23143732019.gif",
+      "loss" : 26,
+      "name" : "Jazz",
+      "wins" : 40
+    },
+    "-L_J9fCinHyNlJsJHOi4" : {
+      "city" : "Sacramento",
+      "logo" : "https://content.sportslogos.net/logos/6/2687/thumbs/khmovcnezy06c3nm05ccn0oj2.gif",
+      "loss" : 16,
+      "name" : "Kings",
+      "wins" : 30
+    },
+    "-L_J9fCinHyNlJsJHOi5" : {
+      "city" : "Los Angeles",
+      "logo" : "https://content.sportslogos.net/logos/6/217/thumbs/wd9ic7qafgfb0yxs7tem7n5g4.gif",
+      "loss" : 14,
+      "name" : "Lakers",
+      "wins" : 34
+    },
+    "-L_J9fFfjWSLpnllnE6o" : {
+      "city" : "Orlando",
+      "logo" : "https://content.sportslogos.net/logos/6/224/thumbs/22448122018.gif",
+      "loss" : 47,
+      "name" : "Magic",
+      "wins" : 12
+    },
+    "-L_J9fFovY_IJtYHVhbh" : {
+      "city" : "Dallas",
+      "logo" : "https://content.sportslogos.net/logos/6/218/thumbs/21870342016.gif",
+      "loss" : 12,
+      "name" : "Mavericks",
+      "wins" : 60
+    },
+    "-L_J9fGaivdQpi7ruy7n" : {
+      "city" : "Brooklyn",
+      "logo" : "https://content.sportslogos.net/logos/6/238/thumbs/23843702014.gif",
+      "loss" : 48,
+      "name" : "Nets",
+      "wins" : 12
+    },
+    "-L_J9fGaivdQpi7ruy7o" : {
+      "city" : "Denver",
+      "logo" : "https://content.sportslogos.net/logos/6/239/thumbs/23997252018.gif",
+      "loss" : 29,
+      "name" : "Nuggets",
+      "wins" : 40
+    },
+    "-L_J9fJWOtzf2iQgzhCr" : {
+      "city" : "Indiana",
+      "logo" : "https://content.sportslogos.net/logos/6/240/thumbs/24040432017.gif",
+      "loss" : 29,
+      "name" : "Pacers",
+      "wins" : 50
+    },
+    "-L_J9fJcR1k8BTTkT0mr" : {
+      "city" : "Detroit",
+      "logo" : "https://content.sportslogos.net/logos/6/233/thumbs/23325472018.gif",
+      "loss" : 14,
+      "name" : "Pistons",
+      "wins" : 48
+    },
+    "-L_J9fKNJ8gJeI6K8EDJ" : {
+      "city" : "Toronto",
+      "logo" : "https://content.sportslogos.net/logos/6/227/thumbs/22745782016.gif",
+      "loss" : 19,
+      "name" : "Raptors",
+      "wins" : 27
+    },
+    "-L_J9fKNJ8gJeI6K8EDK" : {
+      "city" : "Houston",
+      "logo" : "https://content.sportslogos.net/logos/6/234/thumbs/23467492017.gif",
+      "loss" : 17,
+      "name" : "Rockets",
+      "wins" : 72
+    },
+    "-L_J9fNFwyGACTgz_axp" : {
+      "city" : "San antonio",
+      "logo" : "https://content.sportslogos.net/logos/6/219/thumbs/21956712016.gif",
+      "loss" : 24,
+      "name" : "Spurs",
+      "wins" : 52
+    },
+    "-L_J9fNROg9tChdUsgTQ" : {
+      "city" : "Phoenix",
+      "logo" : "https://content.sportslogos.net/logos/6/219/thumbs/21956712016.gif",
+      "loss" : 34,
+      "name" : "Suns",
+      "wins" : 12
+    },
+    "-L_J9fOGwaCVg-swrbxt" : {
+      "city" : "OKC",
+      "logo" : "https://content.sportslogos.net/logos/6/236/thumbs/23654622016.gif",
+      "loss" : 14,
+      "name" : "Thunder",
+      "wins" : 62
+    },
+    "-L_J9fOGwaCVg-swrbxu" : {
+      "city" : "Minnesota",
+      "logo" : "https://content.sportslogos.net/logos/6/214/thumbs/burm5gh2wvjti3xhei5h16k8e.gif",
+      "loss" : 44,
+      "name" : "Timberwolves",
+      "wins" : 22
+    },
+    "-L_J9fQzR-YzGNa7C57W" : {
+      "city" : "Portland",
+      "logo" : "https://content.sportslogos.net/logos/6/219/thumbs/21956712016.gif",
+      "loss" : 13,
+      "name" : "Trail Blazers",
+      "wins" : 52
+    },
+    "-L_J9fRAxp5tK3EKKeyv" : {
+      "city" : "Golden State",
+      "logo" : "https://content.sportslogos.net/logos/6/219/thumbs/21956712016.gif",
+      "loss" : 33,
+      "name" : "Warriors",
+      "wins" : 42
+    },
+    "-L_J9fS04QBeqvPtJZyE" : {
+      "city" : "Washington",
+      "logo" : "https://content.sportslogos.net/logos/6/225/thumbs/22582752016.gif",
+      "loss" : 13,
+      "name" : "Wizards",
+      "wins" : 52
+    }
+  }
+}

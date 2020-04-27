@@ -28,6 +28,20 @@ An iOS and Android NBA app created with React Native. If you would like to reque
 
 [React-Native-render-html](https://github.com/archriss/react-native-render-html)
 
+[Firebase (email auth and real-time database)](https://firebase.google.com/)
+
+# Before Run
+* Create a firebase project
+* In Authentication enable auth with email/password
+* Create a Realtime Database
+* Import json file from assets/
+* In app/utils/misc, create the following pairs (key/value):
+
+```
+export const FIREBASEURL = YOUR_DATABASE_URL;
+export const APIKEY = YOUR_API_KEY;
+```
+
 # Getting Started
 1. Fork (optional) and clone repo
 ```
